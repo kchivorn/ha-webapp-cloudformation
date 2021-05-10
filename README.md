@@ -41,4 +41,4 @@ The script (infrastructure-as-code) to deploy a secured and high-availablity web
 ./create_stack.sh servers servers.yml servers_parameters.json
 ```
 
-4. Check the status of servers stack.
+4. Check the status of servers stack. Access load balancer dns name in the output of the servers stack. You shoud your web app deploy successfully.
