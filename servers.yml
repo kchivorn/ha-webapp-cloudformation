@@ -129,6 +129,11 @@ Resources:
         Ref: WebAppLaunchConfig
       MinSize: !Ref WebAppMinSize
       MaxSize: !Ref WebAppMaxSize
+      MetricsCollection:
+        - Granularity: "1Minute"
+          Metrics:
+            - "GroupMinSize"
+            - "GroupMaxSize"
       TargetGroupARNs:
         - Ref: WebAppTargetGroup
 
