@@ -17,3 +17,5 @@ The script (infrastructure-as-code) to deploy a secured and high-availablity web
 11. Applcation servers are configured with IAM instance profile to enable access to AWS S3 bucket.
 12. Health checks and thresholds are defined to check system availability.
 13. The script is to automate the process of creating, updating, deleting the whole environment in a predicted manner and short period of time.
+
+![high availability web app cloud formation](https://user-images.githubusercontent.com/26404683/117610434-f4c42d80-b18b-11eb-9c81-0312934f0a80.png)
